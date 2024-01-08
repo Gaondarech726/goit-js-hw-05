@@ -1,4 +1,9 @@
 class Car {
+    speed;
+    price;
+    maxSpeed;
+    isOn;
+    distance;
     static getSpecs(car) {
       console.log(`maxSpeed: ${car.maxSpeed}, speed: ${car.speed}, isOn: ${car.isOn}, distance: ${car.distance}, price: ${car.price}`);
     }
